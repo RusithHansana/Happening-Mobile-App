@@ -1,3 +1,3 @@
 # happening_app
 
-A new Flutter project.
+Basic folder structure to be followed throughout the development
