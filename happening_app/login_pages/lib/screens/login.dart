@@ -23,13 +23,16 @@ class Login extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const SizedBox(
+                  height: 100,
+                ),
+                 SizedBox(
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Text(
                       'Hi!',
                       style: TextStyle(
-                          fontSize: 70,
-                          color: Color.fromARGB(234, 255, 255, 255),
+                          fontSize: 65,
+                          color: Colors.white.withOpacity(0.9),
                           fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -41,7 +44,7 @@ class Login extends StatelessWidget {
                 GlassBox(
                   borderRadius: 32,
                   child: Padding(
-                    padding: EdgeInsets.all(30),
+                    padding: const EdgeInsets.all(30),
                     child: Column(children: [
                       SizedBox(
                         width: 350,
@@ -58,7 +61,7 @@ class Login extends StatelessWidget {
                           ),
                         ),
                       ),
-                  
+
                       //Continue Button//
                       const SizedBox(height: 10),
                       SizedBox(
@@ -75,19 +78,19 @@ class Login extends StatelessWidget {
                           child: const Text(
                             'Continue',
                             style: TextStyle(
-                                fontSize: 17, fontWeight: FontWeight.w500),
+                                fontSize: 16, fontWeight: FontWeight.w400),
                           ),
                         ),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 12.67),
                       //OR//
                       const SizedBox(
                         child: Text(
                           'or',
-                          style: TextStyle(color: Colors.white, fontSize: 18),
+                          style: TextStyle(color: Colors.white, fontSize: 14),
                         ),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 12.67),
                       //fb-log
                       SizedBox(
                         width: 350,
@@ -107,9 +110,9 @@ class Login extends StatelessWidget {
                           label: const Text(
                             'Continue with Facebook',
                             style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 15,
                                 color: Colors.black,
-                                fontWeight: FontWeight.w600),
+                                fontWeight: FontWeight.w400),
                           ),
                         ),
                       ),
@@ -133,9 +136,9 @@ class Login extends StatelessWidget {
                           label: const Text(
                             'Continue with Google',
                             style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 15,
                                 color: Colors.black,
-                                fontWeight: FontWeight.w600),
+                                fontWeight: FontWeight.w400),
                           ),
                         ),
                       ),
@@ -155,16 +158,31 @@ class Login extends StatelessWidget {
                           icon: Image.asset(
                             'assets/images/apple.png',
                             width: 24,
+                            height: 24,
                           ),
                           label: const Text(
                             'Continue with Apple',
                             style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 15,
                                 color: Colors.black,
-                                fontWeight: FontWeight.w600),
+                                fontWeight: FontWeight.w400),
                           ),
                         ),
-                      )
+                      ),
+                      const SizedBox(height: 12.67),
+                      //link section
+                      const SizedBox(
+                        child: Text(
+                          'Don’t you have an account? Sign Up',
+                          style: TextStyle(color: Colors.white, fontSize: 15,fontWeight: FontWeight.w600,),
+                        ),
+                      ),
+                      const SizedBox(
+                        child: Text(
+                          'Forgot your Password ?',
+                          style: TextStyle(color: Colors.white, fontSize: 15,fontWeight: FontWeight.w600,),
+                        ),
+                      ),
                     ]),
                   ),
                 ),
