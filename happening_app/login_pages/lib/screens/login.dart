@@ -67,7 +67,7 @@ class Login extends StatelessWidget {
                     ),
                     child: const Text(
                       'Continue',
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
                     ),
                   ),
                 ),
@@ -94,11 +94,11 @@ class Login extends StatelessWidget {
                     ),
                     icon: Image.asset(
                       'assets/images/facebook.png',
-                      width: 25,
+                      width: 24,
                     ),
                     label: const Text(
                       'Continue with Facebook',
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 16, color: Colors.black,fontWeight: FontWeight.w600),
                     ),
                   ),
                 ),
@@ -117,11 +117,11 @@ class Login extends StatelessWidget {
                     ),
                     icon: Image.asset(
                       'assets/images/google.png',
-                      width: 25,
+                      width: 24,
                     ),
                     label: const Text(
                       'Continue with Google',
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 16, color: Colors.black,fontWeight: FontWeight.w600),
                     ),
                   ),
                 ),
@@ -140,11 +140,11 @@ class Login extends StatelessWidget {
                     ),
                     icon: Image.asset(
                       'assets/images/apple.png',
-                      width: 25,
+                      width: 24,
                     ),
                     label: const Text(
                       'Continue with Apple',
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 16, color: Colors.black,fontWeight: FontWeight.w600),
                     ),
                   ),
                 ),
