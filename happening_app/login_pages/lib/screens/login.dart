@@ -23,7 +23,7 @@ class Login extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const SizedBox(
-                  height: 100,
+                  height: 20,
                 ),
                  SizedBox(
                   child: Align(
