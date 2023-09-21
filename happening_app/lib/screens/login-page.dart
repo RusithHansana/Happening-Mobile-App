@@ -1,13 +1,60 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+
+import 'package:happening_app/data/dummy_accounts.dart';
+import 'package:happening_app/models/account.dart';
+import 'package:happening_app/screens/password-page.dart';
 import 'package:happening_app/widgets/glass_box.dart';
 
-class Login extends StatelessWidget {
-  const Login({super.key});
+class LoginPage extends StatefulWidget {
+  const LoginPage({super.key});
+
+  @override
+  State<LoginPage> createState() {
+    return _LoginPageState();
+  }
+}
+
+class _LoginPageState extends State<LoginPage> {
+  final TextEditingController emailController = TextEditingController();
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
+  bool isEmailValid = false;
+
+  void checkEmailValidity() {
+    final enteredEmail = emailController.text.trim();
+    StudentAccount? matchingStudent;
+
+    try {
+      matchingStudent = dummyStudentAccounts.firstWhere(
+        (student) => student.email == enteredEmail,
+      );
+    } catch (e) {
+      matchingStudent = null;
+    }
+
+    if (matchingStudent != null) {
+      // Email is correct, navigate to the password input page and pass the student object.
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => PasswordPage(student: matchingStudent),
+        ),
+      );
+    } else {
+      // Email is incorrect, show a snackbar.
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Email does not match.'),
+        ),
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: scaffoldKey,
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
@@ -53,6 +100,7 @@ class Login extends StatelessWidget {
                             width: 350,
                             height: 50,
                             child: TextField(
+                              controller: emailController,
                               decoration: InputDecoration(
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(30.0),
@@ -66,6 +114,11 @@ class Login extends StatelessWidget {
                                 hintText: "Email",
                                 fillColor: Colors.white,
                               ),
+                              onChanged: (value) {
+                                setState(() {
+                                  isEmailValid = value.isNotEmpty;
+                                });
+                              },
                             ),
                           ),
 
@@ -75,12 +128,16 @@ class Login extends StatelessWidget {
                             width: 350,
                             height: 50,
                             child: ElevatedButton(
-                              onPressed: () {},
+                              onPressed:
+                                  isEmailValid ? checkEmailValidity : null,
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(25),
                                 ),
-                                backgroundColor: Colors.blue,
+                                backgroundColor: const Color(0xFF16559B),
+                                disabledForegroundColor: Colors.white,
+                                disabledBackgroundColor:
+                                    const Color(0xFF16559B),
                               ),
                               child: const Text(
                                 'Continue',
