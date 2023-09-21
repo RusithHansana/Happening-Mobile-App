@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.log.app-mergeDebugResources-9:/values-hi/values-hi.xml",
+            "outputFile": "com.example.happening_app-mergeDebugResources-9:/values-hi/values-hi.xml",
             "map": [
                 {
-                    "source": "/Users/samadhiliyanage/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res/values-hi/values-hi.xml",
+                    "source": "C:\\Users\\saths\\.gradle\\caches\\transforms-3\\7e9df2ac2213a6bd3cef0f2f27870d79\\transformed\\core-1.6.0\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

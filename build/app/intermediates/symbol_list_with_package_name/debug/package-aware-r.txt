@@ -1,4 +1,4 @@
-com.example.log
+com.example.happening_app
 attr activityAction
 attr activityName
 attr alpha

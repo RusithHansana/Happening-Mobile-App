@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.log.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.happening_app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/samadhiliyanage/Desktop/login/log 2/log/android/app/src/main/res/values-night/styles.xml",
+                    "source": "C:\\Users\\saths\\OneDrive\\Desktop\\Happening-Mobile-App-Profile-sign-in-page\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
