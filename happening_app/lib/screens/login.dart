@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_pages/widgets/glass_box.dart';
+
+import 'package:happening_app/widgets/glass_box.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -25,7 +26,7 @@ class Login extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                 SizedBox(
+                SizedBox(
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Text(
@@ -174,13 +175,21 @@ class Login extends StatelessWidget {
                       const SizedBox(
                         child: Text(
                           'Don’t you have an account? Sign Up',
-                          style: TextStyle(color: Colors.white, fontSize: 15,fontWeight: FontWeight.w600,),
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
                       ),
                       const SizedBox(
                         child: Text(
                           'Forgot your Password ?',
-                          style: TextStyle(color: Colors.white, fontSize: 15,fontWeight: FontWeight.w600,),
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
                       ),
                     ]),
