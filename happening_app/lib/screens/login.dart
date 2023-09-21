@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:happening_app/widgets/glass_box.dart';
 
 class Login extends StatelessWidget {
@@ -12,7 +11,7 @@ class Login extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage(
-              'assets/images/bg.jpg',
+              'assets/images/bg.png',
             ),
             fit: BoxFit.cover,
           ),
