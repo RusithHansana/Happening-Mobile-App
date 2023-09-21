@@ -1,0 +1,4 @@
+#Wed Sep 20 16:55:35 IST 2023
+base.0=/Users/samadhiliyanage/Desktop/login/log 2/log/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
