@@ -6,9 +6,6 @@ import '/data/dummy_accounts.dart';
 import '/models/account.dart';
 
 import '/widgets/glass_box.dart';
-import 'package:home_page/data/dummy_accounts.dart';
-import 'package:home_page/models/account.dart';
-import 'package:home_page/widgets/glass_box.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

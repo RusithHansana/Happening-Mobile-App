@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:home_page/screens/home_screen.dart';
 import 'package:home_page/screens/login_screen.dart';
+import 'package:home_page/screens/splash_screen.dart';
 
 void main() {
   runApp(
@@ -33,7 +34,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: themeHappening,
-      home: const LoginPage(),
+      home: const SplashScreen(),
     );
   }
 }

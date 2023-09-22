@@ -22,6 +22,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/img/splash_screen/splash-background.jpg
+    - assets/img/splash_screen/logo.png
     - assets/img/events/rasoga.jpg
     - assets/img/profile/profile.png
     - assets/img/images/facebook.png

@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                 height: 20,
               ),
               const Padding(
-                padding: EdgeInsets.only(right: 20),
+                padding: EdgeInsets.only(right: 30),
                 child: SearchBarWidget(),
               ),
               const SizedBox(
