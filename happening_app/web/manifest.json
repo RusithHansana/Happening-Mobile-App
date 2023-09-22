@@ -1,6 +1,6 @@
 {
-    "name": "happening_app",
-    "short_name": "happening_app",
+    "name": "home_page",
+    "short_name": "home_page",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
