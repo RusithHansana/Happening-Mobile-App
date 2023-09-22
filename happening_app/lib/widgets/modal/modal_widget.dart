@@ -89,10 +89,10 @@ class ModalWidget extends ConsumerWidget {
                         Container(
                           height: 400,
                           width: double.infinity,
-                          decoration: const BoxDecoration(
+                          decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage(
-                                  'assets/img/events/rasoga.jpg'), // Replace with your image path
+                              image: AssetImage(event
+                                  .imageUrl), // Replace with your image path
                               fit: BoxFit.cover,
                             ),
                           ),

@@ -57,8 +57,8 @@ class _EventCardDetailsState extends State<EventCardDetails> {
               children: [
                 FadeInImage(
                   placeholder: MemoryImage(kTransparentImage),
-                  image: const AssetImage(
-                    'assets/img/events/rasoga.jpg',
+                  image: AssetImage(
+                    widget.event.imageUrl,
                   ),
                   fit: BoxFit.cover,
                   height: 500,

@@ -2,6 +2,23 @@ import '/models/event.dart';
 
 final List<UniversityEvent> universityEvents = [
   UniversityEvent(
+    id: "11",
+    title: "Rasoga",
+    place: "Campus Amphitheater",
+    startTime: DateTime(2023, 11, 8, 16, 0),
+    endTime: DateTime(2023, 11, 8, 22, 0),
+    description:
+        "Experience the magic of music at our annual Music Festival. Enjoy performances by student bands, solo artists, and special guest musicians.",
+    requirements: [
+      "Love for music",
+      "Blanket or lawn chair",
+      "Cash for concessions"
+    ],
+    category: Category.social,
+    imageUrl: 'assets/img/events/Events/rasoga.jpg',
+    isFeaturedEvent: true,
+  ),
+  UniversityEvent(
     id: "1",
     title: "Annual Science Conference",
     place: "Campus Auditorium",
@@ -11,7 +28,7 @@ final List<UniversityEvent> universityEvents = [
         "Join us for the Annual Science Conference where experts from around the world will discuss the latest breakthroughs in various scientific fields.",
     requirements: ["Student ID", "Registration fee", "Laptop for workshops"],
     category: Category.conference,
-    imageUrl: "conference_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (1).jpg",
     isFeaturedEvent: true,
   ),
   UniversityEvent(
@@ -24,7 +41,7 @@ final List<UniversityEvent> universityEvents = [
         "This workshop will help you build essential skills for a successful career. Topics include resume writing, interview techniques, and networking strategies.",
     requirements: ["Resume", "Notebook", "Professional attire"],
     category: Category.workshop,
-    imageUrl: "workshop_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (2).jpg",
   ),
   UniversityEvent(
     id: "3",
@@ -36,7 +53,7 @@ final List<UniversityEvent> universityEvents = [
         "Explore global politics and diplomacy in this seminar featuring renowned experts. Gain insights into the complex world of international relations.",
     requirements: ["Interest in international affairs", "Open mind"],
     category: Category.seminar,
-    imageUrl: "seminar_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (4).jpg",
     isFeaturedEvent: true,
   ),
   UniversityEvent(
@@ -49,7 +66,7 @@ final List<UniversityEvent> universityEvents = [
         "Be part of the grand opening of our latest art exhibition showcasing works from talented local artists. Enjoy an evening of creativity and culture.",
     requirements: ["Art enthusiast", "Dress code: Smart casual"],
     category: Category.exhibition,
-    imageUrl: "art_exhibition_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (3).jpg",
     isFeaturedEvent: true,
   ),
   UniversityEvent(
@@ -62,7 +79,7 @@ final List<UniversityEvent> universityEvents = [
         "Join us for a fascinating lecture on quantum mechanics by Dr. Elizabeth Smith. This is part of our ongoing Physics Lecture Series.",
     requirements: ["Interest in physics", "Note-taking materials"],
     category: Category.lecture,
-    imageUrl: "lecture_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (6).jpg",
   ),
   UniversityEvent(
     id: "6",
@@ -74,7 +91,7 @@ final List<UniversityEvent> universityEvents = [
         "Get ready for a day of sports and fun! Participate in various sporting events, from basketball to track and field, and compete for exciting prizes.",
     requirements: ["Sports attire", "Water bottle", "Competitive spirit"],
     category: Category.sports,
-    imageUrl: "sports_day_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (5).jpg",
   ),
   UniversityEvent(
     id: "7",
@@ -86,7 +103,7 @@ final List<UniversityEvent> universityEvents = [
         "Learn about sustainable practices and environmental conservation in this workshop. Discover ways to make a positive impact on our planet.",
     requirements: ["Reusable water bottle", "Interest in environmental issues"],
     category: Category.workshop,
-    imageUrl: "environmental_workshop_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (8).jpg",
   ),
   UniversityEvent(
     id: "8",
@@ -102,7 +119,7 @@ final List<UniversityEvent> universityEvents = [
       "Cash for concessions"
     ],
     category: Category.social,
-    imageUrl: "music_festival_image.jpg",
+    imageUrl: "assets/img/events/Events/1 (9).jpg",
     isFeaturedEvent: true,
   ),
   UniversityEvent(
@@ -115,7 +132,7 @@ final List<UniversityEvent> universityEvents = [
         "Get hands-on experience in robotics! This workshop will cover robot design, programming, and a friendly robot competition.",
     requirements: ["Interest in robotics", "Basic knowledge of programming"],
     category: Category.workshop,
-    imageUrl: "robotics_workshop_image.jpg",
+    imageUrl: "assets/img/events/Events/1(10).jpg",
   ),
   UniversityEvent(
     id: "10",
@@ -127,7 +144,7 @@ final List<UniversityEvent> universityEvents = [
         "Join us for the Annual Science Conference where experts from around the world will discuss the latest breakthroughs in various scientific fields.",
     requirements: ["Student ID", "Registration fee", "Laptop for workshops"],
     category: Category.conference,
-    imageUrl: "conference_image.jpg",
+    imageUrl: "assets/img/events/Events/1(11).jpg",
     isFeaturedEvent: true,
   ),
 ];

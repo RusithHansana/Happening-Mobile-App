@@ -52,16 +52,16 @@ class _UpcomingEventCardState extends State<UpcomingEventCard> {
                 Container(
                   height: 100,
                   width: 100,
-                  decoration: const BoxDecoration(
+                  decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/img/events/rasoga.jpg'),
+                      image: AssetImage(widget.event.imageUrl),
                       fit: BoxFit.cover,
                     ),
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(16.0),
                       bottomLeft: Radius.circular(16.0),
                     ),
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
                         offset: Offset(5, 5),
                         blurRadius: 15,
