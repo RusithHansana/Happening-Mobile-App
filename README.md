@@ -50,7 +50,6 @@ flutter run
 To customize and extend app functionality:
 
 - UI Screens: /screens
-- Routing: /routes
 - State Management: /providers
 - Models: /models
   
