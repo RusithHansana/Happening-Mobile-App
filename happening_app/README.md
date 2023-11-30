@@ -1,3 +1,3 @@
-# happening_app
+# home_page
 
-Basic folder structure to be followed throughout the development
+A new Flutter project.

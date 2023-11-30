@@ -1,19 +1,38 @@
-name: happening_app
+name: home_page
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: ">=3.1.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.4.0
+  google_fonts: ^5.1.0
+  intl: ^0.18.1
+  transparent_image: ^2.0.1
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo2.png"
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
 flutter:
+  assets:
+    - assets/img/splash_screen/splash-background.jpg
+    - assets/img/splash_screen/logo.png
+    - assets/img/profile/profile.png
+    - assets/img/images/facebook.png
+    - assets/img/images/google.png
+    - assets/img/images/apple.png
+    - assets/img/images/dp.png
+    - assets/logo2.png
+    - assets/img/events/Events/
   uses-material-design: true
