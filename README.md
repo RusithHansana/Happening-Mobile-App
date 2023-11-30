@@ -1,143 +1,83 @@
-Happening
-Happening is a mobile app that serves as a centralized event platform for NSBM Green University. It bridges the gap between event organizers and students to increase awareness of university events.
+# Happening
 
-Demo
-Insert screenshot(s) of app UI here.
+Happening is a mobile event app for NSBM Green University to improve event awareness.
 
-Technologies
-Flutter framework
-Dart programming language
-Figma (UI/UX design)
-Features
-Event listing with details and reminders
-User registration and login
-Profile management
-Search events by title, date, etc
-Mark events as interested/registered
-App notifications for upcoming events
-Architecture
-The app uses Flutter for cross-platform UI and Dart for logic. Key architecture components:
+![App Demo](images/demo.png)
 
-Frontend
-SplashScreen - Welcoming screen
-Auth screens - SignUp, Login
-HomeScreen - Main app UI
-TabScreen - Organizes event list
-ProfileScreen - Manage user profile
-ModalScreen - Overlay to show event details
-Backend
-Data Models - Blueprint for data structure
-Providers - Handle data exchange between frontend and "backend"
-Temporary local storage for event/user data
-Usage
-Cloning the Repo
-To get started, clone the code repository:
+## Overview
 
-Copy code
+Happening bridges the gap between organizers and students by providing a central platform for university events.  
 
-git clone https://github.com/RusithHansana/Happening-Mobile-App.git
-Installation
-Navigate into the project directory:
+### Key Features
 
-Copy code
+- Browse upcoming events
+- Event details and registration  
+- User login and profiles  
+- Search events by title, date, etc
+- Notifications and reminders
 
-cd Happening-Mobile-App  
+## Getting Started 
+
+### Prerequisites
+
+Ensure you have installed:
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
+
+### Installation 
+
+1. Clone the repository
+    ```bash
+    git clone https://github.com/RusithHansana/Happening-Mobile-App.git
+    ```
+2. Navigate into project directory
+    ```bash
+   cd Happening-Mobile-App
+3. Install dependencies
+```bash
 flutter pub get
-Running the App
-To run on emulator/simulator:
-
-Copy code
-
+```
+4. Running the App
+To launch the app on Android Emulator / iOS Simulator:
+```bash
 flutter run
-Customizing
-To customize code:
+```
 
-main.dart - App entrypoint
-routes.dart - Routing and navigation
-providers/ - State management
-screens/ - App UI
-Team
-BGR Hansana
-PWAG Perera
-OP Desinhala
-MHN Sathsara
-ENAB Jayarathna
-HS Thilan
-ALS Pabasara
-Future Work
-Integrate Firebase backend
-Enhance search capabilities
-Push notifications for events
-Analytics to track event popularity
-Administrator portal
-Let me know if you would like me to modify or add anything!
+### Customization
 
-Copy
+To customize and extend app functionality:
 
-optimize this to a .md file
+- UI Screens: /screens
+- Routing: /routes
+- State Management: /providers
+- Models: /models
+  
+### Technology Stack
 
-RH
-Here is the README optimized as a markdown file:
+1.Frontend
 
-Happening
-Happening is a mobile app that serves as a centralized event platform for NSBM Green University. It bridges the gap between event organizers and students to increase awareness of university events.
+- Flutter
+- Dart
+  
+2.Design
 
-Show Image
+- Figma
 
-Technologies
-Flutter framework
-Dart programming language
-Figma (UI/UX design)
-Features
-Event listing with details and reminders
-User registration and login
-Profile management
-Search events by title, date, etc
-Mark events as interested/registered
-App notifications for upcoming events
-Architecture
-The app uses:
+## Team
 
-Frontend: Flutter & Dart
-SplashScreen
-Auth screens
-HomeScreen
-TabScreen
-ProfileScreen
-ModalScreen
-Backend:
-Data Models
-Providers
-Local storage
-Usage
-Installation
-Copy code
+- BGR Hansana  
+- PWAG Perera
+- OP Desinhala  
+- MHN Sathsara
+- ENAB Jayarathna  
+- HS Thilan    
+- ALS Pabasara
 
-git clone https://github.com/RusithHansana/Happening-Mobile-App.git
-cd Happening-Mobile-App
-flutter pub get
-Running
-Copy code
+## Future Work  
 
-flutter run
-Customizing
-Core files:
-
-main.dart
-routes.dart
-providers/
-screens/
-Team
-BGR Hansana
-PWAG Perera
-OP Desinhala
-MHN Sathsara
-ENAB Jayarathna
-HS Thilan
-ALS Pabasara
-Future Work
-Firebase backend
-Search capabilities
-Push notifications
-Analytics
-Admin portal
+- Firebase backend   
+- Search capabilities    
+- Push notifications   
+- Analytics   
+- Admin portal
