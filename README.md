@@ -23,7 +23,7 @@ Happening bridges the gap between organizers and students by providing a central
 Ensure you have installed:
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) or [Xcode](https://developer.apple.com/xcode/).
 
 ### Installation 
 
