@@ -1,8 +1,6 @@
 # Happening
 
 Happening is a mobile event app for NSBM Green University to improve event awareness.
-You can read more about the project.
-
 
 
 ## Overview
