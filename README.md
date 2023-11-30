@@ -64,13 +64,13 @@ To customize and extend app functionality:
 
 ## Team
 
-- BGR Hansana  
-- PWAG Perera
-- OP Desinhala  
-- MHN Sathsara
-- ENAB Jayarathna  
-- HS Thilan    
-- ALS Pabasara
+- [RusithHansana](https://github.com/RusithHansana)  
+- [AvishkaGihan](https://github.com/AvishkaGihan)
+- [OshiniPoornima](https://github.com/OshiniPoornima) 
+- [SathsaraHewage](https://github.com/MHN-Sathsara)
+- [NiroshanBandara](https://github.com/niroshanbandara)  
+- [SanjulaThilan](https://github.com/demonthila)    
+- [SamadhiLiyanage](https://github.com/samadhiliyanage)
 
 ## Future Work  
 
