@@ -60,7 +60,7 @@ To customize and extend app functionality:
   
 2.Design
 
-- Figma
+- Figma (https://www.figma.com/file/m6DGDi2WKjPDn5GDzxwkM6/Happening---Event-App-UI?type=design&node-id=127%3A539&mode=design&t=rBblcVG8YedesFiq-1)
 
 ## Team
 
